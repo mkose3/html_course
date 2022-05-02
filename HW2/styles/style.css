@@ -1,0 +1,56 @@
+body{
+    background-color: violet;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid cornsilk;
+}
+img{
+    width: 400px;
+}
+div,h1,h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: aqua;
+}
+p,li {
+    font-family: 'Libre Bodoni', serif;
+}
+
+.size {
+    width: 500px;
+    height: 500px;
+    background-position: center;
+}
+
+.size1 {
+    width: 500px;
+    height: 350px;
+    background-position: center;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://playua.net/wp-content/uploads/2022/02/image.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px dotted #676767;
+
+}
+.image1 {
+    width: 400px;
+    height: 400px;
+    background-image: url(http://c.files.bbci.co.uk/14E7C/production/_108582658_joker1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+  
+}
+
+ul p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}

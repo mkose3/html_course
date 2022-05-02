@@ -1,0 +1,11 @@
+body{
+    background-color: violet;
+    width: 800px;
+    margin: 0 auto;
+}
+img{
+    width: 400px;
+}
+div,h1,h2{
+    text-align: center;
+}
