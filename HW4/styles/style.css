@@ -18,11 +18,11 @@ body {
     padding: 0;
 }
 .logo {
-position: absolute;
-width: 104px;
-height: 32px;
-left: 72px;
-top: 16px;
+    position: absolute;
+    width: 104px;
+    height: 32px;
+    left: 72px;
+    top: 16px;
 }
 
 .header ul li {
@@ -255,8 +255,6 @@ top: 16px;
 p {
     width: 264px;
     height: 80px;
-    /* font-family: 'Roboto';
-    font-style: normal; */
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -289,8 +287,7 @@ p {
     text-transform: transparent;
 }
 .footer-bottom li:first-child {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+
     font-weight: 300;
     font-size: 12px;
     line-height: 16px;
