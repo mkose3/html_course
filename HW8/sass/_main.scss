@@ -1,0 +1,54 @@
+.main-contant h1 {
+    font-family: 'Ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    width: 498px;
+    transform: translate(80px , 200px);
+}
+
+.main-contant p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    width: 533px;
+    transform: translate(80px, 202px);
+
+}
+
+.main-banner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+.main-banner img {
+    width: 430px;
+    transform: translateY(-73px);
+   
+}
+
+.main .btn {
+    width: 150px;
+    height: 60px;
+    transform: translate(80px, 263px);
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+
+}

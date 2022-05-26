@@ -1,0 +1,50 @@
+@import 'reset';
+@import 'header';
+@import 'main';
+
+@keyframes example{
+    from{
+        background: red;
+    }
+    to{
+        background: blue;
+    }
+}
+
+
+body {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 157, 243);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+.wrapper {
+    width: 1130px;
+    margin: 0 auto;
+    padding-top: 80px;
+      
+}
+
+.btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #4F56F1;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    &.transparent {
+        font-weight: 400;
+        background-color: transparent;
+        color: #1B0A42;
+    }
+}
