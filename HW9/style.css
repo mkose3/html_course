@@ -1,0 +1,101 @@
+.header {
+    padding: 90px 0 80px;
+    background-image: url(./ımages/header-bg.png);
+    text-align: center;
+}
+
+.header div {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 130px;
+    height: 35.52px;
+    background-color: #F0650D;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;    
+    text-decoration: none;    
+    line-height: 35.52px;
+}
+
+.grey-btn {
+    background-color: #4B5A65; 
+}
+
+.main {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    padding: 17px 10px 10px;
+}
+
+.main div {
+    height: 205px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.main .cool-glasses-first {
+    grid-column: 1/ span 2;
+    background-image: url(./ımages/cool-glasses.png);
+    color:#EE640D; ;
+}
+
+.cool-glasses-second {
+    grid-column: 2/ span 2;
+    background-image: url(./ımages/cool-glasses2.png);
+}
+
+.cool-hacking-second {
+    height: auto!important;
+    grid-area: 2 / 4 / 4 / auto;
+    background-image: url(./ımages/cool-hacking.png);
+}
+
+.cool-macbook {
+    background-image: url(./ımages/cool-macbook.png);
+}
+
+.cool-imac {
+    background-image: url(./ımages/cool-imac.png);
+}
+
+.cool-hacking-first {
+    background-image: url(./ımages/cool-hacking1.png);
+}
+
+.cool-notebook {
+    background-image: url(./ımages/cool-notebook.png);
+}
+
+.cool-code {
+    background-image: url(./ımages/cool-code.png);
+}
+
+.cool-timer {
+    background-image: url(./ımages/cool-timer.png) ;
+}
