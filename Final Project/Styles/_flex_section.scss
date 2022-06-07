@@ -1,0 +1,92 @@
+.flex-section {
+    height: 879px;
+    font-family: $main-text-font;
+    background: #FFF9EA;
+    margin-top: 97px;
+     
+    h3 {
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        color: #1E266D;
+        padding-top: 139px;
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 150%;
+        text-align: center;
+        color: #455880;
+    }
+}
+
+.section-images {
+    margin-top: 40px;
+
+    img {
+        width: 287px;
+        height: 220px;
+        margin-right: -22px;
+
+    }
+
+    .salad {
+        width: 255px;
+        transform: translateY(60px);
+      
+    }
+
+    .cloud {
+        transform: translateY(90px);
+
+    }
+
+    .portugal {
+        transform: translateY(130px);
+    }
+
+    .violet {
+        transform: translateY(185px);
+    }
+
+    .second-line {
+        margin-top: -20px;
+        
+        .last {
+            height: 49px;
+            margin-top: -27px;
+        }
+
+        .move {
+            height: 153px;
+            transform: translateY(27px);
+        }
+
+        .community{
+            height: 113px;
+            transform: translateY(26px);
+        }
+
+        .credo {
+            height: 60px;
+            transform: translateY(26px);
+        }
+
+        .emotions {
+            width: 255px;
+            height: 188px;
+            transform: translateY(24px);
+        }
+
+        // .white-rectangle {
+        //     width: 100%;
+        //     margin: 0;
+        //     z-index: 1;
+        //     position: relative;
+        // }
+
+    }
+
+
+
+}

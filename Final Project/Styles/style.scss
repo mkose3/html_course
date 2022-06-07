@@ -1,0 +1,47 @@
+$main-text-font: 'Lato', sans-serif;
+@import 'reset';
+@import 'main';
+@import 'fonts';
+@import 'header';
+@import 'content_header';
+@import 'content';
+@import 'flex_section';
+@import 'information';
+@import 'dark_blue';
+@import 'footer';
+@import 'media';
+
+
+
+body {
+    height: auto;
+    
+}
+.wrapper .content {
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-mobile {
+    display: none;
+}
+.links-menu {
+    display: none;
+}
+
+.footer-logo_mobile {
+    display: none;
+}
+
+.center-img_mini , .center-img_mobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+

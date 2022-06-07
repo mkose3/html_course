@@ -1,0 +1,74 @@
+.information {
+    margin-top: 120px;
+    font-family: $main-text-font;
+
+    h4 {
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        color: #1E266D;
+    }
+
+    .information-block {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+
+        .column {
+            width: 330px;
+            height: 440px;
+            border: 1px solid rgba(69, 88, 128, 0.2);
+            border-radius: 4px;
+            margin-right: 20px;
+           
+            p  {
+                font-size: 15px;
+                line-height: 180%;
+                color: #455880;
+                text-align: left;
+                padding: 37px 39px 37px 39px;
+
+            }
+
+            .img {
+                text-align: center;
+                transform: translateY(40px);
+            }
+
+            .link {
+                height: 60px;
+                margin-top: 25px;
+
+                div {
+                    margin-top: -28px;
+
+                    a   {
+                        text-decoration: none;
+                        margin-left:125px ;
+                        font-size: 16px;
+                        line-height: 180%;
+                        text-align: center;
+                        color: #455880;
+
+                    }
+
+                }
+
+                .user {
+                font-size: 22px;
+                line-height: 125%;
+                text-align: center;
+                color: #1E266D;
+               
+                }
+
+            }
+
+
+                
+        }
+
+    }
+    
+}
