@@ -7,6 +7,8 @@
     <title>Final_Project</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/slick.css">
+    <link rel="stylesheet" href="./styles/slick-theme.css">
  
 </head>
 <body>
@@ -25,9 +27,11 @@
             <ul>    
                 <li><a href="">+001234567890</a></li>
                 <li><button class="contact">Contact us</button></li>
+                <li><button id="modalBtn">Log In</button></li>
             </ul>    
         </div>
         <div class="main">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="./images/images_slider/parallax.example.jpg"></div>
             <div class="bg-main">
                 <div>
                 <h1>Good design meets <br> great user experience</h1>
@@ -69,8 +73,41 @@
                 </div>
             </div>
             </div>
-        </div>    
-    </div>
+        </div>
+    </div> 
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-text">
+                <form>
+                    <label> Enter your name
+                        <input type="" id="password_input">
+                    </label>
+                </form>
+                <form>
+                    <label> Enter your password
+                        <input type="text" id="name_input" name="get_num" value="">
+                    </label>
+                </form>
+            </div>
+          <span class="close">&times;</span>
+          <p>Thank you for logging in!</p>
+        </div>      
+    </div>       
+</div>
+    <button id="backToTopBtn" title="Go to top">Top</button>
+
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/scrollToTop.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./scripts/slick.min.js"></script>
+    <script src="./scripts/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script>
+        $('.parallax-window').parallax({imageSrc: './images/images_slider/parallax.example.jpg'});
+    </script>
     <div class="wrapper">
         <div class="content-header">
             <div>
@@ -245,6 +282,17 @@
             </div>
         </div>    
     </div>
+    <div class="your-class">
+        <div>
+             <img src="./images/images_slider/test1.jpg" alt="">
+        </div>
+        <div>
+            <img src="./images/images_slider/test2.jpg" alt="">
+        </div>
+        <div>
+            <img src="./images/images_slider/test3.jpg" alt="">
+        </div>
+    </div>   
     <div class="wrapper">
         <div class="dark-blue">
             <div>

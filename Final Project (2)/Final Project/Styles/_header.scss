@@ -1,0 +1,39 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+
+    ul li{
+        position: relative;
+        list-style-type: none;
+        display: inline-block; 
+        margin-left: 30px; 
+        font-family: $main-text-font;
+        font-size: 16px;
+        line-height: 80px;
+        color: #1E266D;
+    
+    } 
+
+    a {
+        text-decoration-line: none;
+    }
+
+    .contact {
+        width: 113px;
+        height: 40px;
+        background-color:#3751FF;
+        border-radius:100px;
+        border: none;
+        color: #FFFFFF;
+    } 
+} 
+
+.right {
+    padding-right: 40px;
+}
+
+.logo {
+    position: relative;
+    top: 28px;
+}

@@ -1,0 +1,46 @@
+.dark-blue {
+    font-family: $main-text-font;
+    margin-top: 140px;
+    height:290px;
+    background-color: #3751FF;
+
+    p {
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+        text-align: left;
+        transform: translate(90px, 95px); 
+    
+    }
+
+    .main-btn , span{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+        margin-top: 0px;
+      
+
+        .see {
+            font-size: 15px;
+            line-height: 100%;
+            text-align: center;
+
+        }
+
+        img {
+            width: 29px;
+            height: 29px;
+            transform: translate(34px , 12px);
+        }
+
+    }
+
+    span {
+        font-size: 16px;
+        line-height: 125%;
+        text-align: right;
+        color: #DFE0EB;
+        padding-top: 10px;
+
+    }
+}

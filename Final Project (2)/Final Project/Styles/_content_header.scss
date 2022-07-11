@@ -1,0 +1,28 @@
+.content-header {  
+        font-family: $main-text-font;
+        margin-top: 30px;
+    
+        p {
+            line-height: 27px;    
+            text-align: center;
+            color: rgba(69, 88, 128, 0.5);  
+        }
+
+        .inner-header {
+            display: flex;
+            justify-content: space-evenly;
+        
+            ul li{
+                position: relative;
+                display: inline-block; 
+                padding-right: 45px; 
+                padding-top: 49px;
+            
+            } 
+        
+        }
+    
+    }
+ 
+
+

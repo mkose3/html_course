@@ -1,0 +1,103 @@
+.content {
+    height: 1038px;
+    font-family: $main-text-font;
+    .center-text {
+        margin-top: 160px;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        color: #1E266D;
+         
+    }
+
+}
+
+.both-content {
+    display: flex;
+    height: 1039px;
+    .right-content {
+        margin-top: 70px;
+        margin-right: -40px;
+
+        .design {
+            width: 340px;
+            display: inline-flex;
+            padding: 50px 0px 37px 0px;
+            
+            article {
+                width: 330px;
+                padding-left: 45px;
+            }
+
+            p {
+                text-align: left;
+                font-size: 22px;
+                line-height: 125%;
+                color: #1E266D;
+                padding-bottom: 17px;
+            }
+
+            .content-text {
+                font-size: 18px;
+                line-height: 30px;
+                color: #455880;
+                padding: 22px 0px 22px 0px;
+                
+            }
+
+        }
+
+        hr {
+            width: 400px;
+            border: 1px solid rgba(69, 88, 128, 0.2);
+            position: absolute;
+        }
+
+    }
+
+    .left-content {
+        .girl {
+            margin-top: -120px;
+            padding-left: 240px;
+            width: 580px;
+    
+            .rectangle {
+                position: relative;
+                display: flex;
+                z-index: -1;
+                justify-content: center;
+                transform: translate(52px, -131px);
+            }
+    
+        }
+    
+        .black_man {
+            margin-top: -145px;
+            padding-left: 79px;
+    
+            .ellipse {
+                transform: translate(154px, -29px);
+            }
+    
+        }
+    
+        .beard_man {
+            text-align: center;
+            transform: translate(190px, -150px);
+    
+            .triangle-content {
+                transform: rotate(178deg);
+                margin-left: -168px;
+                top: -173px;
+                z-index: -1;
+                position: relative;
+    
+            }
+       
+        }
+    
+    }
+}
+
+
+

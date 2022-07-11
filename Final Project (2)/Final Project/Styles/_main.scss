@@ -1,0 +1,113 @@
+.bg-main {
+    height: 878px;
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+    z-index: 0;
+
+}
+
+.main {
+    height: 1012px;
+
+}
+
+h1 {
+    height: 118px;
+    font-family: $main-text-font;
+    font-size: 50px;
+    line-height: 105%;
+    text-align: center;
+    color: #1E266D;
+    padding-top: 116px;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #455880;
+
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    margin-top:29px;
+
+    .buy {
+        line-height: 100%;
+        color: #FFFFFF;
+        width: 148px;
+        background: #3751FF;
+        margin-right: 20px;
+        cursor: pointer;
+        
+    }
+   
+}
+
+.buy , .see {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    height: 50px;
+    border-radius: 100px;
+    font-family: $main-text-font;
+    border: none;
+    
+
+}
+
+.see {
+    width: 199px;
+    line-height: 50px;
+    color: #455880;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px; 
+    position: relative;
+    z-index: 1;
+
+    .main_right-side {
+        z-index: -1;
+    }
+    .triangle {
+        transform: translateY(-15px);
+    }
+
+    .avatar {
+        transform: translate(46px,63px);
+
+    }
+
+    .big-ellipse {
+        transform: translatey(150px);
+        position: absolute;
+    }
+
+    .rectangle {
+        position: relative;
+        z-index: -1;
+        transform: translate(-55px, 172px);
+    }
+
+    .small-ellipse {
+        transform: translate(28px, 52px);
+    }
+
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+
